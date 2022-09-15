@@ -9,17 +9,7 @@
 <p id=p2></p>
 
 
-<script>
-b1.onclick = function()
- { 
-    p1.innerHTML = "you said "+(parseInt(i1.value)*parseInt(i2.value))
- } 
 
-b2.onclick = function()
- { 
-    p2.innerHTML = "you said "+(parseInt(i1.value)+parseInt(i2.value))	 
- } 
- </script>
  <hr>         
 <style>         
 p {color:red}
@@ -36,4 +26,44 @@ p {color:red}
 <LI> This is my second LI sentence tag</LI>
 <LI> This is my third lt sentence tag</LI>
 <LI> This is my fourth sentence tag</LI></OL>
+<script>
+	const a=6
+	const b=30
+	
+	if (a > b) 															// check whether a is bigger than b
+	 {console.log (`${a} is bigger than ${b}`)										
+										
+	 }
+
+	if (a >= b) 														// check whether a is bigger than or equal to b
+	 {console.log (`${a} is bigger than or equal to ${b}`)										
+									
+	 }
+	if (a == b) 														// check whether a is equal to b
+	 {console.log (`${a} is equal to ${b}`)										
+									
+	 }
+	if (a < b) 															// check whether a is less than b
+	 {console.log (`${a} is less than ${b}`)										
+									
+	 }
+	if (a <= b) 														// check whether a is less than or equal to b
+	 {console.log (`${a} is less than or equal to ${b}`)										
+									
+	 }
+	if (a != b) 														// check whether a is not equal to b
+	 {console.log (`${a} is not equal to ${b}`)										
+									
+	 }
+	 
+b1.onclick = function()
+ { 
+    p1.innerHTML = "you said "+(parseInt(i1.value)*parseInt(i2.value))
+ } 
+
+b2.onclick = function()
+ { 
+    p2.innerHTML = "you said "+(parseInt(i1.value)+parseInt(i2.value))	 
+ } 
+ </script>
 </html>
